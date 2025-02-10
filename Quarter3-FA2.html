@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="FA2.css">
+
+        <title>Simple Calculator - FA2</title>
+    </head>
+
+    <body>
+        <div class="calc">
+            <h1>Simple Calculator</h1>
+            <p>This page is a simple calculator. Enter two numbers in the textboxes and click an operation button to see the result.</p>
+            
+            <h4>Operations</h4>
+            <ul>
+                <li>+ for Addition</li>
+                <li>- for Subtraction</li>
+                <li>* for Multiplication</li>
+                <li>/ for Division</li>
+                <li>% for Remainder</li>
+            </ul>
+            
+
+
+            <input type="number" id="n1" placeholder="Number 1">
+            <input type="number" id="n2" placeholder="Number 2">
+
+            <div class="opbutton">
+                <button onclick="calculate('+')">+</button>
+                <button onclick="calculate('-')">-</button>
+                <button onclick="calculate('*')">*</button>
+                <button onclick="calculate('/')">/</button>
+                <button onclick="calculate('%')">%</button>
+            </div>
+
+            <p id="results">The results will be displayed here.</p>
+        </div>
+
+        <script src="FA2.JS"></script>
+    </body>
+</html>

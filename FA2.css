@@ -1,0 +1,24 @@
+body{
+    background-color:slategray;
+    text-align: center;
+}
+
+.calc{
+    display: inline-block;
+    background-color:white;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.opbutton{
+    margin-top: 25px;
+}
+
+.opbutton button{
+    cursor: pointer;
+}
+
+#results{
+    font-weight: bold;
+    margin-top: 50px;
+}
